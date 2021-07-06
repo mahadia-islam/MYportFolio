@@ -1,0 +1,70 @@
+@media(max-width:1399px){
+    .hero-section{
+        height: 670px;
+    }
+    .hero-section .col-md-3 .icon-box{
+        float: right;
+    }
+}
+
+@media (max-width:991px){
+    .hero-section{
+        height: 1050px;
+    }
+    .hero-section header .col-md-6{
+        width: 100%;
+    }
+    .hero-section .col-md-3:last-child{
+        display: none;
+    }
+    .hero-section .col-md-3 .icon-box{
+        float: none;
+    }
+    .hero-section header .col-md-3{
+        width: 100%;
+    }
+    .hero-section header .col-md-6{
+        display: none;
+    }
+    .hero-section header .col-md-6 ul{
+        display: block;
+    }
+    .hero-section header .col-md-6 ul li{
+        margin: 20px 0px;
+        padding: 15px 0px;
+    }
+    .hero-section header .col-md-6 li:hover{
+        background-color: cyan;
+    }
+    .hero-section header .col-md-6 li:hover a{
+        color: black !important;
+    }
+    .hero-background .col-md-7,.col-md-5{
+        width: 100% !important;
+    }
+    .hero-background .col-md-7{
+        padding-top: 20px !important;
+    }
+    .hero-section header .logo-block .drop-menu-toggle {
+        display: block;
+    }
+}
+
+@media (max-width:580px){
+    .hero-section .hero-background .col-md-7 p{
+        display: none;
+    }
+    .hero-section .hero-background .col-md-7{
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .hero-section .hero-background .col-md-7 h2{
+        font-size: 35px;
+        padding: 10px 0px;
+    }
+
+    .hero-section{
+        height: 900px;
+    }
+}
