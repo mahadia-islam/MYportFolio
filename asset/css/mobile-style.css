@@ -47,6 +47,12 @@
     }
 }
 
+@media (max-width:767px){
+    .service-section .col-md-4{
+        margin-top:20px;
+    }
+}
+
 @media (max-width:580px){
     .hero-section .hero-background .col-md-7 p{
         display: none;
