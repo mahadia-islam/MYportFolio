@@ -28,11 +28,7 @@
 
 .hero-section{
     background-color: black;
-    height: 750px;
     overflow: hidden;
-    &.more-height{
-        height: 1400px;
-    }
     header{
         padding: 35px 0px;
         .logo-block{
@@ -120,4 +116,10 @@
             }
         }
     }
+}
+
+/*<!-- service section -->*/
+
+.service-section{
+    padding: 100px 0px;
 }

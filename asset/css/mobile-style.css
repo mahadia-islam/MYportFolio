@@ -1,16 +1,13 @@
 @media(max-width:1399px){
-    .hero-section{
-        height: 670px;
-    }
     .hero-section .col-md-3 .icon-box{
         float: right;
+    }
+    .hero-section .hero-background .col-md-7 h2{
+        padding: 10px 0px;
     }
 }
 
 @media (max-width:991px){
-    .hero-section{
-        height: 1050px;
-    }
     .hero-section header .col-md-6{
         width: 100%;
     }
@@ -64,7 +61,5 @@
         padding: 10px 0px;
     }
 
-    .hero-section{
-        height: 900px;
-    }
+    
 }
