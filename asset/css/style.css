@@ -115,7 +115,7 @@
 
 .hero-section .hero-background .col-md-7 button:hover {
   background-color: var(--primary-color);
-  color: var(--secondary-color);
+  color: #111;
 }
 
 .hero-section .hero-background .col-md-5 img {
