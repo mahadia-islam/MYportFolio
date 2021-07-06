@@ -2,7 +2,25 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*<!-- root variable -->*/
+
+:root{
+    --ssfont:'Staatliches',sans-serif;
+    --ubuntu:'Ubuntu',sans-serif;
+    --lobostar:'Lobster', cursive;
+    --miwi-font:'Merriweather Sans', sans-serif;
+    --primary-color:cyan;
+    --secondary-color:#fff;
+}
+
+@mixin primary-btn($padding){
+    padding: $padding;
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
 }
 
 /*<!-- hero area -->*/
@@ -10,4 +28,69 @@
 .hero-section{
     background-color: black;
     height: 750px;
+    header{
+        padding: 35px 0px;
+        .col-md-3{
+            a{
+                font-size: 35px;
+                font-weight: 600;
+                font-family: var(--ssfont);
+                text-decoration: none;
+                color: var(--primary-color);
+            }
+        }
+        .col-md-6{
+            text-align: center;
+            ul{
+                padding-left: 0;
+                display: flex;
+                margin: auto;
+                padding: 15px 0px;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: var(--primary-color);
+                        font-weight: 600;
+                        padding: 10px 25px;
+                    }
+                }
+            }
+        }
+        .col-md-3{
+            .icon-box{
+                i{
+                    color: var(--primary-color);
+                    font-size: 25px;
+                    margin: 15px 10px;
+                }
+            }
+        }
+    }
+    .hero-background{
+        .col-md-6{
+            h2{
+                color: var(--secondary-color);
+                padding: 20px 0px;
+                font-family: var(--ubuntu);
+                font-weight: 700;
+                font-size: 50px;
+                span{
+                    color: var(--primary-color);
+                    font-family: var(--ubuntu);
+                }
+            }
+            p{
+                color: var(--secondary-color)
+            }
+            button{
+                @include primary-btn(6px 25px);
+                font-weight: 600;
+                &:hover{
+                    background-color: var(--primary-color);
+                    color: var(--secondary-color);
+                }
+            }
+        }
+    }
 }
