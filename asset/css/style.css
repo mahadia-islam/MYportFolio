@@ -258,4 +258,14 @@
 .journy-section .img-block img {
   width: 65%;
 }
+
+/*<!-- work gallary -->*/
+.work-gallary {
+  padding: 100px 0px;
+  background-color: #000;
+}
+
+.work-gallary .img-block img {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
