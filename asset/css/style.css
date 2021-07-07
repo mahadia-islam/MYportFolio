@@ -215,4 +215,9 @@
 .about-section .about-text-block .btn-div button:last-child {
   margin-left: 10px;
 }
+
+/*<!-- journy section -->*/
+.journy-section {
+  padding: 100px 0px;
+}
 /*# sourceMappingURL=style.css.map */
