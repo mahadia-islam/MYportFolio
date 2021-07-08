@@ -257,6 +257,15 @@
 
 .journy-section .img-block img {
   width: 65%;
+  border-radius: 10px;
+}
+
+.journy-section .img-block img:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  overflow: hidden;
 }
 
 /*<!-- work gallary -->*/
@@ -298,8 +307,63 @@
   transition: 1s;
 }
 
+.work-gallary .col-md-3 .img-block img:hover .img-block {
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+}
+
 /*<!-- testiomonial section -->*/
 .testimonial-section {
-  padding: 50px 0px;
+  padding: 70px 0px;
+}
+
+.testimonial-section h1 {
+  text-align: center;
+  padding-bottom: 0px;
+  color: #222;
+  font-family: var(--ssfont);
+}
+
+.testimonial-section h1 span {
+  color: var(--primary-color);
+  font-family: var(--ssfont);
+}
+
+.testimonial-section .col-md-6 {
+  padding: 0px 50px;
+  margin-top: 50px;
+}
+
+.testimonial-section .col-md-6 .review-block {
+  background-color: var(--secondary-color);
+  -webkit-box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+          box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;
+  padding: 20px 20px 20px 40px;
+  border-radius: 10px;
+}
+
+.testimonial-section .col-md-6 .review-block .review-people-block img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid var(--primary-color);
+}
+
+.testimonial-section .col-md-6 .review-block p {
+  text-align: justify;
+  font-style: italic;
+  font-family: 'Nunito',sans-serif;
+  padding-top: 20px;
+}
+
+.testimonial-section .col-md-6 .review-block a {
+  font-family: var(--lobostar);
+  font-size: 17px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.testimonial-section .col-md-6 .review-block h5 {
+  font-family: var(--ssfont);
 }
 /*# sourceMappingURL=style.css.map */

@@ -233,6 +233,12 @@
         text-align: center;
         img{
             width: 65%;
+            border-radius: 10px;
+            &:hover{
+                transition: 1s;
+                transform: scale(1.2);
+                overflow: hidden;
+            }
         }
     }
 }
@@ -266,6 +272,10 @@
                     border-radius: 10px;
                     transition: 1s;
                 }
+                &:hover .img-block{
+                    border: 1px solid var(--primary-color);
+                    border-radius: 10px;
+                }
             }
         }
     }
@@ -274,5 +284,48 @@
 /*<!-- testiomonial section -->*/
 
 .testimonial-section{
-    padding: 50px 0px;
+    padding: 70px 0px;
+    h1{
+        text-align: center;
+        padding-bottom: 0px;
+        color: #222;
+        font-family: var(--ssfont);
+        span{
+            color: var(--primary-color);
+            font-family: var(--ssfont);
+        }
+    }
+    .col-md-6{
+        padding: 0px 50px;
+        margin-top: 50px;
+        .review-block{
+            background-color: var(--secondary-color);
+            box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;;
+            padding: 20px 20px 20px 40px;
+            border-radius: 10px;
+            .review-people-block{
+                img{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    border: 1px solid var(--primary-color);
+                }
+            }
+            p{
+                text-align: justify;
+                font-style: italic;
+                font-family: 'Nunito',sans-serif;
+                padding-top: 20px;
+            }
+            a{
+                font-family: var(--lobostar);
+                font-size: 17px;
+                text-decoration: none;
+                color: var(--primary-color);
+            }
+            h5{
+                font-family: var(--ssfont);
+            }
+        }
+    }
 }
