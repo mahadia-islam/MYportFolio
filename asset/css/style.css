@@ -297,28 +297,53 @@
   margin-bottom: 50px;
 }
 
-.work-gallary .col-md-3 {
+.work-gallary .col-md-6 {
+  --bs-gutter-x: 1.5rem;
   margin-top: 20px;
-  position: relative;
 }
 
-.work-gallary .col-md-3 .img-block img {
+.work-gallary .col-md-6 .gallary-block {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
   width: 100%;
-  border-radius: 10px;
 }
 
-.work-gallary .col-md-3 .img-block img:hover {
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
-  cursor: pointer;
-  border-radius: 10px;
-  -webkit-transition: 1s;
-  transition: 1s;
+.work-gallary .col-md-6 .gallary-block .img-block {
+  width: 60%;
 }
 
-.work-gallary .col-md-3 .img-block img:hover .img-block {
-  border: 1px solid var(--primary-color);
-  border-radius: 10px;
+.work-gallary .col-md-6 .gallary-block .img-block img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.work-gallary .col-md-6 .gallary-block .semi-block {
+  width: 40%;
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.work-gallary .col-md-6 .gallary-block .semi-block button {
+  background-color: transparent;
+  color: #222;
+  padding: 6px 25px;
+  border: 2px solid #222;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.work-gallary .col-md-6 .gallary-block .semi-block .icon-box {
+  width: 60%;
+}
+
+.work-gallary .col-md-6 .gallary-block .semi-block .icon-box i {
+  width: 35px;
+  height: 35px;
+  padding: 8px 0px;
+  color: #fff;
+  background-color: #222;
+  border-radius: 50%;
 }
 
 /*<!-- testiomonial section -->*/
@@ -328,13 +353,78 @@
 
 .testimonial-section h1 {
   text-align: center;
-  padding-bottom: 0px;
+  padding-bottom: 50px;
   color: #222;
   font-family: var(--lobostar);
 }
 
 .testimonial-section h1 span {
-  color: var(--primary-color);
+  color: crimson;
   font-family: var(--lobostar);
+}
+
+.testimonial-section .col-md-3 {
+  padding: 0px 25px;
+}
+
+.testimonial-section .col-md-3 .testimonial-block {
+  text-align: center;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px 0px;
+  border-radius: 5px;
+}
+
+.testimonial-section .col-md-3 .testimonial-block img {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.testimonial-section .col-md-3 .testimonial-block p {
+  font-family: 'Nunito',sans-serif;
+  font-style: italic;
+  padding: 20px 25px 5px 25px;
+}
+
+.testimonial-section .col-md-3 .testimonial-block a {
+  text-decoration: none;
+  font-family: var(--lobostar);
+}
+
+.testimonial-section .col-md-3 .testimonial-block h5 {
+  font-family: var(--ssfont);
+  padding-top: 10px;
+}
+
+.testimonial-section .col-md-3 .testimonial-one {
+  border: 1px solid gold;
+}
+
+.testimonial-section .col-md-3 .testimonial-one img {
+  border: 5px solid gold;
+}
+
+.testimonial-section .col-md-3 .testimonial-two {
+  border: 1px solid crimson;
+}
+
+.testimonial-section .col-md-3 .testimonial-two img {
+  border: 5px solid crimson;
+}
+
+.testimonial-section .col-md-3 .testimonial-four {
+  border: 1px solid #180753;
+}
+
+.testimonial-section .col-md-3 .testimonial-four img {
+  border: 5px solid #180753;
+}
+
+.testimonial-section .col-md-3 .testimonial-three {
+  border: 1px solid #1566fc;
+}
+
+.testimonial-section .col-md-3 .testimonial-three img {
+  border: 5px solid #1566fc;
 }
 /*# sourceMappingURL=style.css.map */
