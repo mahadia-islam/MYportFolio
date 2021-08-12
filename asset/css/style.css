@@ -159,71 +159,6 @@
 }
 
 /*<!-- about section -->*/
-.about-section {
-  background-color: #000;
-  padding: 200px 0px 100px 0px;
-}
-
-.about-section .row {
-  background-color: var(--secondary-color);
-  border-radius: 10px;
-}
-
-.about-section .row .col-md-6 img {
-  width: 80%;
-  padding-top: 100px;
-}
-
-.about-section .row .col-md-6:last-child {
-  padding-top: 120px;
-}
-
-.about-section .row .col-md-6:last-child h2 {
-  font-family: var(--ssfont);
-  font-size: 45px;
-}
-
-.about-section .row .col-md-6:last-child h2 span {
-  color: #00fff2;
-  font-family: var(--ssfont);
-}
-
-.about-section .row .col-md-6:last-child p {
-  font-family: var(--miwi-font);
-  text-align: justify;
-  padding: 20px 80px 20px 0px;
-}
-
-.about-section .row .col-md-6:last-child button {
-  background-color: #00fff2;
-  border: 2px solid #00fff2;
-  color: #222;
-  padding: 6px 25px;
-  font-family: var(--miwi-font);
-  margin-bottom: 20px;
-}
-
-.about-section .row .col-md-6:last-child a {
-  text-decoration: none;
-  font-size: 18px;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  background-color: #222;
-  color: var(--secondary-color);
-  border-radius: 50%;
-  margin-left: 10px;
-  margin-top: 20px;
-}
-
-.about-section .row .col-md-6:last-child a:first-child {
-  margin-left: 0px;
-}
-
-.about-section .row .col-md-6:last-child a i {
-  margin-top: 10px;
-}
-
 /*<!-- journy section -->*/
 .journy-section {
   padding: 100px 0px;
@@ -276,6 +211,57 @@
   overflow: hidden;
 }
 
+/*<!-- about section -->*/
+.about-section {
+  background-color: #000;
+  padding: 70px 0px;
+}
+
+.about-section .container .col-md-6:first-child {
+  text-align: center;
+}
+
+.about-section .container .col-md-6 img {
+  width: 70%;
+  border-radius: 10px;
+}
+
+.about-section .container .about-column h2 {
+  color: var(--primary-color);
+  font-weight: 800;
+  padding: 50px 0px;
+}
+
+.about-section .container .about-column p {
+  text-align: justify;
+  color: #a5a5a5;
+}
+
+.about-section .container .about-column .about-box {
+  margin: 30px 0px;
+}
+
+.about-section .container .about-column .about-box button {
+  padding: 7px 20px;
+  border: 2px solid cyan;
+  background-color: transparent;
+  color: cyan;
+}
+
+.about-section .container .about-column .about-box .icon-box {
+  margin-top: 5px;
+}
+
+.about-section .container .about-column .about-box .icon-box i {
+  margin-left: 20px;
+  color: cyan;
+  width: 30px;
+  height: 30px;
+  border: 2px solid cyan;
+  padding: 5px;
+  border-radius: 50%;
+}
+
 /*<!-- work gallary -->*/
 .work-gallary {
   padding: 100px 0px;
@@ -289,7 +275,7 @@
 .work-gallary .title-box h1 {
   color: var(--secondary-color);
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   font-family: var(--ssfont);
 }
 
@@ -297,53 +283,29 @@
   margin-bottom: 50px;
 }
 
-.work-gallary .col-md-6 {
-  --bs-gutter-x: 1.5rem;
+.work-gallary .container .col-md-3 {
+  text-align: center;
   margin-top: 20px;
 }
 
-.work-gallary .col-md-6 .gallary-block {
-  background-color: var(--secondary-color);
-  border-radius: 5px;
-  width: 100%;
-}
-
-.work-gallary .col-md-6 .gallary-block .img-block {
-  width: 60%;
-}
-
-.work-gallary .col-md-6 .gallary-block .img-block img {
-  width: 100%;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
-.work-gallary .col-md-6 .gallary-block .semi-block {
-  width: 40%;
-  text-align: center;
-  padding: 100px 0px;
-}
-
-.work-gallary .col-md-6 .gallary-block .semi-block button {
-  background-color: transparent;
-  color: #222;
-  padding: 6px 25px;
-  border: 2px solid #222;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.work-gallary .col-md-6 .gallary-block .semi-block .icon-box {
-  width: 60%;
-}
-
-.work-gallary .col-md-6 .gallary-block .semi-block .icon-box i {
-  width: 35px;
-  height: 35px;
-  padding: 8px 0px;
-  color: #fff;
-  background-color: #222;
+.work-gallary .container .col-md-3 i {
+  margin: 10px 0px 25px 0px;
+  color: cyan;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
+  border: 2px solid cyan;
+  padding: 8px 0px;
+}
+
+.work-gallary .container .col-md-3 h5 {
+  color: var(--primary-color);
+}
+
+.work-gallary .container .col-md-3 p {
+  padding: 10px 0px;
+  color: #fff;
 }
 
 /*<!-- testiomonial section -->*/
@@ -353,78 +315,134 @@
 
 .testimonial-section h1 {
   text-align: center;
-  padding-bottom: 50px;
-  color: #222;
-  font-family: var(--lobostar);
+  font-family: var(--ssfont);
 }
 
-.testimonial-section h1 span {
-  color: crimson;
-  font-family: var(--lobostar);
+.testimonial-section .sub-title {
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 80px;
 }
 
 .testimonial-section .col-md-3 {
-  padding: 0px 25px;
-}
-
-.testimonial-section .col-md-3 .testimonial-block {
   text-align: center;
-  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 20px 0px;
-  border-radius: 5px;
 }
 
-.testimonial-section .col-md-3 .testimonial-block img {
-  width: 30%;
+.testimonial-section .col-md-3 .testimonial-card {
+  background-color: #000;
+  padding: 50px 20px;
+  border-radius: 10px;
+}
+
+.testimonial-section .col-md-3 i {
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.testimonial-section .col-md-3 p {
+  color: #fff;
+}
+
+.testimonial-section .col-md-3 img {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
-.testimonial-section .col-md-3 .testimonial-block p {
-  font-family: 'Nunito',sans-serif;
-  font-style: italic;
-  padding: 20px 25px 5px 25px;
+.testimonial-section .col-md-3 h6 {
+  margin-top: 20px;
+  color: var(--primary-color);
 }
 
-.testimonial-section .col-md-3 .testimonial-block a {
-  text-decoration: none;
-  font-family: var(--lobostar);
+/*<!-- quote section -->*/
+.quote-section {
+  padding: 70px 0px;
 }
 
-.testimonial-section .col-md-3 .testimonial-block h5 {
-  font-family: var(--ssfont);
-  padding-top: 10px;
+.quote-section h1 {
+  color: #000;
+  text-align: center;
+  font-weight: 800;
 }
 
-.testimonial-section .col-md-3 .testimonial-one {
-  border: 1px solid gold;
+.quote-section h1 span {
+  color: var(--primary-color);
 }
 
-.testimonial-section .col-md-3 .testimonial-one img {
-  border: 5px solid gold;
+.quote-section p {
+  text-align: center;
+  padding-top: 5px;
 }
 
-.testimonial-section .col-md-3 .testimonial-two {
-  border: 1px solid crimson;
+.quote-section .container .row {
+  text-align: center;
 }
 
-.testimonial-section .col-md-3 .testimonial-two img {
-  border: 5px solid crimson;
+.quote-section .container .row .col-md-8 {
+  background-color: #000;
+  margin: auto;
+  padding: 50px 0px;
+  margin-top: 50px;
+  border-radius: 10px;
 }
 
-.testimonial-section .col-md-3 .testimonial-four {
-  border: 1px solid #180753;
+.quote-section .container .row .col-md-8 form input {
+  width: 30%;
+  padding: 10px 25px;
+  margin: 20px 0px;
+  background-color: transparent;
+  border: 1px solid cyan;
+  border-radius: 10px;
 }
 
-.testimonial-section .col-md-3 .testimonial-four img {
-  border: 5px solid #180753;
+.quote-section .container .row .col-md-8 form input::-webkit-input-placeholder {
+  color: var(--primary-color);
 }
 
-.testimonial-section .col-md-3 .testimonial-three {
-  border: 1px solid #1566fc;
+.quote-section .container .row .col-md-8 form input:-ms-input-placeholder {
+  color: var(--primary-color);
 }
 
-.testimonial-section .col-md-3 .testimonial-three img {
-  border: 5px solid #1566fc;
+.quote-section .container .row .col-md-8 form input::-ms-input-placeholder {
+  color: var(--primary-color);
+}
+
+.quote-section .container .row .col-md-8 form input::placeholder {
+  color: var(--primary-color);
+}
+
+.quote-section .container .row .col-md-8 form textarea {
+  background-color: transparent;
+  border: 1px solid cyan;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.quote-section .container .row .col-md-8 form textarea::-webkit-input-placeholder {
+  color: var(--primary-color);
+}
+
+.quote-section .container .row .col-md-8 form textarea:-ms-input-placeholder {
+  color: var(--primary-color);
+}
+
+.quote-section .container .row .col-md-8 form textarea::-ms-input-placeholder {
+  color: var(--primary-color);
+}
+
+.quote-section .container .row .col-md-8 form textarea::placeholder {
+  color: var(--primary-color);
+}
+
+.quote-section .container .row .col-md-8 form button {
+  padding: 10px 25px;
+  margin-top: 20px;
+  background-color: cyan;
+  color: #000;
+  border: 1px solid cyan;
+  font-weight: 700;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */
