@@ -181,6 +181,7 @@
             border: 2px solid rgb(0, 255, 242);
             font-weight: 600;
             margin-top: 20px;
+            font-family: var(--miwi-font);
         }
     }
     .img-block{
@@ -368,6 +369,8 @@
                         }
                     }
                     textarea{
+                        width:90%;
+                        height: 200px !important;
                         background-color: transparent;
                         border: 1px solid cyan;
                         padding: 20px;
@@ -434,6 +437,7 @@ footer{
         }
         form{
             input{
+                width: 80%;
                 padding: 6px 25px;
                 background-color: transparent;
                 border: 2px solid cyan;
@@ -443,6 +447,7 @@ footer{
                     color: var(--primary-color);
                 }
             }
+            
             button{
                 padding: 6px 20px;
                 background-color: var(--primary-color);
@@ -450,6 +455,7 @@ footer{
                 font-weight: 600;
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
+                width: 20%;
             }
         }
     }

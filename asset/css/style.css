@@ -192,6 +192,7 @@
   border: 2px solid #00fff2;
   font-weight: 600;
   margin-top: 20px;
+  font-family: var(--miwi-font);
 }
 
 .journy-section .img-block {
@@ -414,6 +415,8 @@
 }
 
 .quote-section .container .row .col-md-8 form textarea {
+  width: 90%;
+  height: 200px !important;
   background-color: transparent;
   border: 1px solid cyan;
   padding: 20px;
@@ -495,6 +498,7 @@ footer .col-md-4 h4 {
 }
 
 footer .col-md-4 form input {
+  width: 80%;
   padding: 6px 25px;
   background-color: transparent;
   border: 2px solid cyan;
@@ -525,6 +529,7 @@ footer .col-md-4 form button {
   font-weight: 600;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  width: 20%;
 }
 
 footer .footer-align {
