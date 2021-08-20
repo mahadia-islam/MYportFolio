@@ -38,20 +38,9 @@
     footer .col-md-4 form button{
         font-size: 14px;
     }
-    .journy-section .story-block .journey-para{
-        display: none;
-    }
+    
     .journy-section .story-block{
         padding-top: 10px;
-    }
-    .journy-section .story-block button{
-        margin-top: 0px;
-    }
-    .about-section .container .about-column .about-para{
-        display: none;
-    }
-    .about-section .container .about-column .about-box{
-        margin-top: 0px;
     }
     .about-section .container .col-md-6 img{
         width: 90%;
@@ -117,6 +106,18 @@
     }
     .hero-section header .logo-block .drop-menu-toggle {
         display: block;
+    }
+    .journy-section .story-block .journey-para{
+        display: none;
+    }
+    .journy-section .story-block button{
+        margin-top: 0px;
+    }
+    .about-section .container .about-column .about-para{
+        display: none;
+    }
+    .about-section .container .about-column .about-box{
+        margin-top: 0px;
     }
 }
 
